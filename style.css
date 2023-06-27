@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+/* ------------------------------------------------main-section------------------------------------------------- */
+#main {
+    position: relative;
+    overflow: hidden;
+}
+
+/* -------------------------------section-1-2-3------------------------------------------ */
+/* .section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/desk01000.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+.section {
+    position: relative;
+    height: 250vh;
+    width: 100vw;
+    background-image: url('images/desk01000.png');
+    background-size: 50%;
+    background-attachment: inherit;
+    background-position: center;
+}
+
+.section h1 {
+    color: #ff9900;
+    font-weight: 800;
+    text-align: center;
+    font-size: clamp(16px, 8vw + 1rem, 74px);
+    line-height: 70px;
+    position: relative;
+}
+
+.section .text-1 {
+    font-size: clamp(16px, 8vw + 1rem, 104px);
+}
+
+.section>.t0 {
+    position: absolute;
+    top: 18%;
+    /* border: 1px solid white; */
+}
+
+.section>.t1 {
+    position: absolute;
+    top: 45%;
+}
+
+.section>.t2 {
+    position: absolute;
+    top: 60%;
+    
+}
+
+/* ------------------------------------------section-4---------------------------------------------- */
+.section-4 {
+    position: relative; 
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index:1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#space1 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    /* background-color: greenyellow; */
+}
+
+/* --------------------------------------------------section-5---------------------------------------------------- */
+
+.section-5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:3;
+}
+#space2 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:2;
+}    
+
+
+/* --------------------------------------------------------section-6------------------------------------------------------- */
+
+.section-6 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 6;
+    /* border:5px solid green; */
+}
+
+#space3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 5;
+    /* border:5px solid black; */
+}
+
+
+#space4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 4;
+    /* border:5px solid red; */
+}
+
+/* -------------------------------------------------------------------section-7----------------------------------------------- */
+
+.section-7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index:8;
+}
+
+#space5 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index: 7;
+}
+
+/* -------------------------------------------------------------section-8--------------------------------------------------------- */
+
+.section-8 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:10;
+}
+#space6 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:9;
+}  
+
+/* -----------------------------------------------------------section-9------------------------------------------------------------- */
+
+.section-9 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 13;
+     /* border:5px solid green;  */
+}
+#space7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 12;
+    /* border:5px solid black; */
+}
+#space8 {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 12;
+    /* border:5px solid rgb(10, 123, 189); */
+}
+#space9 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 11;
+    /* border:5px solid red; */
+}
+
+/* --------------------------------------------------------------------section-10----------------------------------------------------- */
+
+.section-10 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index:15;
+}
+
+#space10 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index: 14;
+}
+/* ------------------------------------------------------------------------section-11-----------------------------------------------------*/
+
+.section-11 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:17;
+}
+#space11 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: rgb(235, 243, 247);
+    z-index:16;
+}  
+
+/* ---------------------------------------------------------------------------section-12--------------------------------------------- */
+
+.section-12 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 20;
+    /* border:5px solid green; */
+}
+
+#space12 {
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 19;
+    /* border:5px solid black; */
+}
+
+#space13 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ebcc38;
+    z-index: 18;
+    /* border:5px solid red; */
+}
+
+/* ---------------------------------------------------------------------section-13--------------------------------------------- */
+
+.section-13 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index:22;
+}
+
+#space14 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #e3eeee;
+    z-index: 21;
+}
+
+/* ---------------------------------------------------------------------------section-14--------------------------------------- */
